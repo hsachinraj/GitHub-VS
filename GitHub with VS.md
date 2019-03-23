@@ -12,9 +12,13 @@ Git has several strengths that contributed to the popularity and the wider adopt
 
 ## Connecting to a GitHub repository
 
-To connect to a Git repository on GitHub, you can use the **GitHub extension for Visual Studio**. This extension can be installed along  VS or can be downloaded separately and installed from the Visual Studio Marketplace.
+Ok, let me demonstrate how you use Git. Here, I have Visual Studio 2019 open  on my machine. Right on the startup page, you will notice, you have an option to connect and download code from a GitHub repository.  Visual Studio 2019 is bundled with the  **GitHub extension for Visual Studio** which makes it super easy to work with GitHub. 
 
-It can be connected to GitHub or GitHub Enterprise with just a simple username and password instead of having to generate and provide **Personal Access Tokens**. Once connected, the extension automatically detects the personal, collaborator and organization repositories you have access to on your account. You can select the repository that you want to connect, from the list and select **clone**. Getting a local copy of a Git repo is called “cloning".  You download the full code from the server to the local machine - so, you will need to specify the local folder you want to use. And that's it - the entire code from the server is downloaded to the local machine.
+![](images/vs-startup.png)
+
+I will select the option. In this screen, if I know the address of the repository, I can enter the URL. Otherwise, you can select **Browse**. You will need to Sign-in. You can connect to GitHub or GitHub Enterprise with just a simple username and password instead of having to generate and provide **Personal Access Tokens**. Once connected, the extension automatically detects the repositories you have access to on your account. You can select the repository that you want to connect, from the list and select **clone**. Getting a local copy of a Git repo is called “cloning".  You download the full code from the server to the local machine - so, you will need to specify the local folder you want to use. And that's it - the entire code from the server is downloaded to the local machine.
+
+![](images/vs-browserepo.png)
 
 You can start making changes now and save them. All changes are saved to the local server first - so, you can be offline. When you get online and connect to the remote server , you can then push these changes to the remote. Behind the scene, a number of Git commands have been executed for you - add, commit, stage, push, etc., but that's all simplified for .
 
